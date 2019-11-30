@@ -104,7 +104,7 @@ export class HomeComponent implements OnInit {
   //   // { url: '/assets/images/content/slide3.jpg' }
   // ];
   imageUrls = [
-    //  { img: "/assets/images/bg_slide/slide1.jpg" },  
+      { img: "/assets/images/bg_slide/slide1.jpg" },  
     //  { img: "/assets/images/bg_slide/Slide2.jpg" },
   ];
   public slideData:slideData[];
@@ -137,7 +137,7 @@ export class HomeComponent implements OnInit {
           //arraySlide.push({ url: '/upload/files/'+response[i].adjust_page_image_name+'.'+response[i].adjust_page_image_type+'?v=1.2' });
         }
         
-     this.imageUrls = arraySlide;
+    // this.imageUrls = arraySlide;
     });
   }
   contentLoad(data) {

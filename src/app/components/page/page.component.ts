@@ -34,7 +34,7 @@ export class PageComponent implements OnInit {
       }
      // this.id =  params['id'];
       this.todoServcie.getDataPage(this.id).subscribe((response)=>{
-        if(this.id=='register'||this.id=='deposit'||this.id=='withdraw'){
+        if(this.id=='login'||this.id=='register'||this.id=='deposit'||this.id=='withdraw'){
           $("#content_html").replaceWith(response.data.menu_detail);
         }else{
           this.data_title = response.data.menu_name;

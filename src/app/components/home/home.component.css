@@ -4,274 +4,62 @@
     margin-right: auto;
     width: 80%;
 }
-
-.ul_area{
+.registericon_area{
+    float: left;
+    padding-left:10px;
+    padding-right: 10px;
     padding-top:20px;
-    padding-right: 10px;
-    float: left;
-
-    background-color: black;
+    width: 100%;
 }
-.menu_footer_ul{
-    float: left;
-    background-color: black;
-    color: white;
-    font-size: 14px;
-    height: 150px;
+.registericon_area img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
-.menu_footer_ul li:before {
-    color: white;
-    content: "\f04b"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -1.3em; /* same as padding-left set on li */
-    width: 1.3em; /* same as padding-left set on li */
-}
-li:hover{
+.registericon_area img:hover{
     cursor: pointer;
-    color: #C29428;
 }
 
-.left_area{
+.img_promotion_pic:hover{
+    cursor: pointer;
+}
+.img_service:hover{
+    cursor: pointer;
+}
+.img_register:hover{
+    cursor: pointer;
+}
+
+.promotion_area{
     float: left;
-    width: 665px;
-    display: none;
-}
-.right_area{
-    display: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    width:calc(100% - 665px);
-    float: left;
-    background: rgba(114,81,20,1);
-    background: -moz-linear-gradient(left, rgba(114,81,20,1) 0%, rgba(253,227,140,1) 38%, rgba(253,227,140,1) 63%, rgba(114,81,20,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(114,81,20,1)), color-stop(38%, rgba(253,227,140,1)), color-stop(63%, rgba(253,227,140,1)), color-stop(100%, rgba(114,81,20,1)));
-    background: -webkit-linear-gradient(left, rgba(114,81,20,1) 0%, rgba(253,227,140,1) 38%, rgba(253,227,140,1) 63%, rgba(114,81,20,1) 100%);
-    background: -o-linear-gradient(left, rgba(114,81,20,1) 0%, rgba(253,227,140,1) 38%, rgba(253,227,140,1) 63%, rgba(114,81,20,1) 100%);
-    background: -ms-linear-gradient(left, rgba(114,81,20,1) 0%, rgba(253,227,140,1) 38%, rgba(253,227,140,1) 63%, rgba(114,81,20,1) 100%);
-    background: linear-gradient(to right, rgba(114,81,20,1) 0%, rgba(253,227,140,1) 38%, rgba(253,227,140,1) 63%, rgba(114,81,20,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#725114', endColorstr='#725114', GradientType=1 );
-}
-
-.title_facebook_page{
-    font-weight: bold;
-    text-align: center;
-}
-.text_facebook{
-    color: #4267B2;
-}
-
-
-
-
-
-
-
-
-
-
-
-.currect_img{
-    width: 25px !important;
-    float: left;
-    padding-bottom: 0px !important;
-    padding-right: 5px;
-    padding-top: 4px;
-}
-.ufa_bet_text_gold{
-    color: #B39427;
-}
-.ufabet_text{
-    color: white;
-    padding-left: 10px;
-    margin-left:5px;
-}
-.deposit_text{
-    text-align: center;
-    color: white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    font-size: 1.2em;
-    background: rgba(0,0,0,1);
-    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(11,11,11,1) 16%, rgba(21,22,24,1) 39%, rgba(21,22,24,1) 65%, rgba(11,11,11,1) 83%, rgba(0,0,0,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(16%, rgba(11,11,11,1)), color-stop(39%, rgba(21,22,24,1)), color-stop(65%, rgba(21,22,24,1)), color-stop(83%, rgba(11,11,11,1)), color-stop(100%, rgba(0,0,0,1)));
-    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(11,11,11,1) 16%, rgba(21,22,24,1) 39%, rgba(21,22,24,1) 65%, rgba(11,11,11,1) 83%, rgba(0,0,0,1) 100%);
-    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(11,11,11,1) 16%, rgba(21,22,24,1) 39%, rgba(21,22,24,1) 65%, rgba(11,11,11,1) 83%, rgba(0,0,0,1) 100%);
-    background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(11,11,11,1) 16%, rgba(21,22,24,1) 39%, rgba(21,22,24,1) 65%, rgba(11,11,11,1) 83%, rgba(0,0,0,1) 100%);
-    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(11,11,11,1) 16%, rgba(21,22,24,1) 39%, rgba(21,22,24,1) 65%, rgba(11,11,11,1) 83%, rgba(0,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
-}
-.deposit_text_2{
-    text-align: center;
-    color: white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    font-size: 1.2em;
-}
-
-.topic_area{
-    padding-left:0px;padding-right:0px;padding-bottom: 0px;box-shadow: unset;
-}
-.banner_bank{
-    padding-left:0px; padding-right: 0px; padding-top:2px;border:1px solid #C29428;
-}
-.banner_pro{
-    padding-left:0px; padding-right: 0px; padding-top:2px; 
-}
-.content_{
-   float: initial;
-}
-.text_main{
-    padding:20px;
-}
-.area_main{
-    padding-top:0px !important;
-}
-.text_yello{
-    color:yellow;
-}
-.text_red{
-    color:red;
-}
-.text_white{
-    color: white;
-}
-
-.font12{
-    font-size: 1.2em;
-    font-weight: 100;
-}
-.content_tab{
-    border: 1px  solid #7B6C29;
-    padding-bottom: 30px;
-    background: black;
-}
-
-.icon_callcenter{
-    margin-top:0px;padding-left:0px;padding-right:0px;
-}
-
-.register__area{
-    float: left; overflow: hidden; width: 100%;
-    padding-top:30px;
-   
-}
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: black;
-    background-color: #ECBA1B;
-    border-color: #ECBA1B;
-}
-
-.nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    color: white;
-}
-.nav-tabs {
-    border-bottom: 0px solid #dee2e6;
-}
-.regiseter_div{
-    padding-left:0px;padding-right:0px;
-    
     width: 100%;
-    position: relative;
-}
-.register_3{
-    background-image: url("/assets/images/menu/bg_menu.jpg");
-    /* background-color: #83001F; */
-    background-size: 100% 75px; 
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    padding:10px;
-    font-size: 1.2em;
-    margin-top: 10px;
-    overflow: hidden;
-}
-.step_topic{
-    background-image: url("/assets/images/menu/step_topic.jpg");
-    /* background-color: #83001F; */
-    background-size: 640px 30px; 
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding:10px;
-    font-size: 1.2em;
-    
-    overflow: hidden;
-    /* margin-top: 10px; */
-    /* margin-bottom: 10px; */
-}
-
-.all_banking img{
-   width: 100%;
-   /* padding-left:10px;
-   padding-right: 10px; */
-}
-
-.register__btn{
-    margin: auto; padding-left:50px;
-    padding-right: 50px;
-}
-
-.deposit__area{
-    padding-top:10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top:20px;
     padding-bottom:20px;
-   
 }
-
-.content__area{
-    float: left; overflow: hidden; width: 100%;
-}
-.detailL{
-    padding-left:10px;
-    padding-right: 10px;
-}
-.detailR{
-    padding-left:10px;
-    padding-right: 10px;
-    padding-bottom: 8px;
-}
-.detailL2{
-    padding-left:10px;
-    padding-right: 10px;
-}
-.detailR2{
-    padding-left:10px;
-    padding-right: 10px;
-    padding-bottom: 8px;
-}
-.detailL img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: calc( 100% - 20px );
-    padding-bottom: 0px;
-}
-.detailR img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: calc( 100% - 20px );
-    /* padding-bottom: 15px; */
-}
-
-
-
-
-.step_register{
-    padding-top:15px;
-}
-.detailLeft{
-    display: none;
-}
-.detailRight img{
+.promotion_area .detailL{
+    float: left;
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom:20px;
 }
+
+.promotion_area .detailR{
+    float: left;
+    width: 100%;
+}
+
+.promotion_area .detailL img{
+    width: 100%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.promotion_area .detailR img{
+    width: 100%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
 .info_image{
     width: 100%;
 }
@@ -923,7 +711,19 @@ border: 2px solid #D2AE70;
     margin-top:15px;
     padding-left:15px;
     padding-right: 15px;
-    padding-bottom: 0px;
+}
+
+.sport_button{
+    margin-top:15px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.sport_button img{
+    width: 100%;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .sport_img img{
@@ -933,26 +733,6 @@ border: 2px solid #D2AE70;
     margin-left: auto;
     margin-right: auto;
 }
-
-.facebook_image img{
-    width: 100%;
-    height: 120px;
-    margin-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.facebook_image:hover{
-    cursor: pointer;
-}
-
-.facebook_image img:first-child{
-    padding-left:2px;
-    padding-right: 2px;
-}
-
-
 .sport_img2 img{
     width: 100%;
     margin-bottom: 10px;
@@ -993,7 +773,7 @@ border: 2px solid #D2AE70;
     color: white;
 }
 .detailRight{
-    /* border-top: 3px solid #1D1D1D; */
+    border-top: 3px solid #1D1D1D;
     float: left;
     width: calc( 100% - 30px);
     color:white;
@@ -1109,6 +889,16 @@ border: 2px solid #D2AE70;
     margin-top:15px;
 }
 
+.img_promotion_text{
+    margin-bottom: 20px;
+}
+.img_bank_{
+    margin-bottom: 20px;
+}
+.img_service{
+    margin-bottom: 20px;
+}
+
 @media screen and (min-width: 375px) {
 
     .sport_img img{
@@ -1179,6 +969,11 @@ border: 2px solid #D2AE70;
 }
 
 @media screen and (min-width: 425px) {
+    .sport_button {
+        margin-top: 15px;
+        padding-left: 30px;
+        padding-right: 15px;
+    }
     .register_button{
         height: auto;
         margin-left:35px;
@@ -1192,12 +987,37 @@ border: 2px solid #D2AE70;
     .slide_and_btn .col-4{
         height: 300px;
     }
+    .icon_registericon{
+        width: 100%;
+    }
+    .icon_moneytransfericon{
+        width: 100%;
+    }
+    .img_service{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .img_register{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .icon_game{
+        width: 100%;
+    }
+    .sport_button img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+    }
 }
 
 @media screen and (min-width: 500px) {
-    .sport_button{
-        padding-bottom: 0px;
-    }
     .register_button_area img{
         width: 60%;
         left: -25px;
@@ -1369,28 +1189,106 @@ border: 2px solid #D2AE70;
 }
 
 @media screen and (min-width: 768px) {
-    .left_area{
-        display: block;
-        width:100%;
+    .img_service{
+        width: unset;
     }
-    .right_area{
-        display: none;
-        width:calc(100% - 300px);
+    .img_register{
+        width: unset;
     }
-    .detailLeft{
-        display: block;
+    .registericon_area{
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
     }
-    .detailLeft img{
+    .icon_registericon{
+        float: left;
+       width: 50%;
+    }
+    .icon_moneytransfericon{
+        float: left;
+        width: 50%;
+    }
+    
+    .icon_registericon img{
+        margin-left: auto;
+        margin-right: 0px;
+        width: 150px;
+    }
+    .icon_moneytransfericon img{
+        margin-left: 0px;
+        margin-right: auto;
+        width: 150px;
+    }
+    
+
+    .sport_button {
+        margin-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .img_promotion_text{
+        margin-bottom: 10px;
+    }
+    .img_bank_{
+        margin-bottom: 10px;
+    }
+    .img_service{
+        margin-bottom: 10px;
+    }
+    .promotion_area{
+        padding-bottom: 0px;
+    }
+    .sport_button{
+        padding-left: 25px;
+    }
+    #grid {
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100%;
+        column-gap: 0px;
+    }
+    
+    #grid > div {
+        
+    }
+    #grid > div img {
         width: 100%;
     }
+
+    .promotion_area .detailL{
+        float: left;
+        width: 60%;
+        padding-bottom:20px;
+    }
+    
+    .promotion_area .detailR{
+        float: left;
+        width: 40%;
+    }
+    
+    .promotion_area .detailL img{
+        width: 100%;
+        padding-left:10px;
+        padding-right:0px;
+    }
+    
+    .promotion_area .detailR img{
+        width: 100%;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .sport_button img{
+        width: 100%;
+        padding-left:0px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
     .detail_Right{
         margin-top: 0px;
     }
-
-    .detailR img{
-        width: calc( 70% - 20px );
-    }
-
     .content_ .container{
         padding-left: 15px;
         padding-right: 15px;
@@ -1476,8 +1374,7 @@ border: 2px solid #D2AE70;
 
     .sport_img img{
         width: 100%;
-        padding:10px;
-        /* padding-right: 5px; */
+        padding-right: 20px;
         margin-left: auto;
         margin-right: unset;
     }
@@ -1508,7 +1405,21 @@ border: 2px solid #D2AE70;
 
 
 
-    
+    .detailRight{
+        float: right;
+        width: calc( 100% - 352px) ;
+        padding-top:30px;
+        text-align: left;
+        font-weight: 100;
+        margin-left: 0px;
+    }
+    .detailLeft{
+        float: left;
+        width: 332px;
+        margin-top: 0px;
+        margin-left: 0px;
+        
+    }
     .banking_area{
         display: block !important;
     }
@@ -1600,23 +1511,6 @@ border: 2px solid #D2AE70;
         padding:unset;
         /* padding:unset;  */
     }
-    .detailRight{
-        float: right;
-        width: 180px;
-        
-        padding-top:0px;
-        text-align: left;
-        font-weight: 100;
-        margin-left: 0px;
-    }
-    .detailLeft{
-        float: left;
-        width: calc( 100% - 180px) ;
-        margin-top: 0px;
-        margin-left: 0px;
-        padding-right: 10px;
-        
-    }
 }
 @media (min-width: 992px){
     .text_howtoplay{
@@ -1675,44 +1569,6 @@ border: 2px solid #D2AE70;
 }
 
 @media screen and (min-width: 1000px) {
-    .left_area{
-        display: block;
-        width:500px;
-    }
-    .right_area{
-        display: block;
-        width:calc(100% - 500px);
-    }
-    .deposit__area{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .topic_area{
-        padding-left:0px !important;
-        padding-right: 0px !important;
-    }
-    .register_3{
-        font-size: 1.5em;
-    }
-    .step_topic{
-        background-size: 100% 40px; ;
-    }
-    .detailL{
-        padding-left:0px;
-        padding-right: 0px;
-    }
-    .detailR{
-        padding-left:10px;
-        padding-right: 0px;
-    }
-    .detailL2{
-        padding-left:0px;
-        padding-right: 0px;
-    }
-    .detailR2{
-        padding-left:10px;
-        padding-right: 0px;
-    }
     .text_inside{
         bottom: -62px;
     }
@@ -1872,28 +1728,44 @@ border: 2px solid #D2AE70;
    }
    
    @media screen and (min-width: 1024px) {
-    .detailL{
-        float: left;
-        width: 60%;
+
+    .icon_registericon img{
+        margin-left: auto;
+        margin-right: 0px;
+        width: 200px;
     }
-    .detailR{
-        float: left;
-        width: 40%;
+    .icon_moneytransfericon img{
+        margin-left: 0px;
+        margin-right: auto;
+        width: 200px;
     }
 
-    .detailL2{
+    .promotion_area{
         float: left;
-        width: 40%;
+        width: 100%;
+        padding-top:20px;
+        padding-bottom:00px;
     }
-    .detailR2{
+    .promotion_area .detailL{
         float: left;
-        width: 60%;
+        width: calc(100% - 400px);
     }
-
-    .detailR img{
-        width: calc( 100% - 18px );
+    .promotion_area .detailR{
+        float: left;
+        padding-left:20px;
+        width: 400px;
     }
+    
 
+    .img_promotion_text{
+        margin-bottom: 20px;
+    }
+    .img_bank_{
+        margin-bottom: 20px;
+    }
+    .img_service{
+        margin-bottom: 20px;
+    }
     .register_button_area img{
         width: 30%;
         left: -30px;
@@ -1903,23 +1775,6 @@ border: 2px solid #D2AE70;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
-    }
-    .detailRight{
-        float: right;
-        width: 245px;
-        
-        padding-top:0px;
-        text-align: left;
-        font-weight: 100;
-        margin-left: 0px;
-    }
-    .detailLeft{
-        float: left;
-        width: calc( 100% - 245px) ;
-        margin-top: 0px;
-        margin-left: 0px;
-        padding-right: 10px;
-        
     }
    }
    
@@ -1936,39 +1791,21 @@ border: 2px solid #D2AE70;
    
    
 @media screen and (min-width: 1200px) {
-    .left_area{
-        display: block;
-        width:680px;
-    }
-    .right_area{
-        display: block;
-        width:calc(100% - 680px);
-    }
+    #grid {
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100%;
+        column-gap: 20px;
+      }
+      
+      #grid > div {
+          
+      }
+      #grid > div img {
+       width: 100%;
+      }
 
-    .all_banking img{
-        width: 100%;
-        padding-left:0px;
-        padding-right: 0px;
-    }
-    .icon_game{
-        width: 100%;
-        height: 200px;
-    }
-    .detailLeft{
-        width: calc(100% - 300px);
-    }
-
-    .detailR img{
-        width: calc( 100% - 15px  );
-    }
-
-    .detailRight{
-        padding-top:0px;
-        width: 300px;
-        padding-left:15px;
-        border-top:0px;
-    }
-    
     .tt_img_df.sport{
         width: 100%;
         
@@ -2018,7 +1855,7 @@ border: 2px solid #D2AE70;
     .casino_img img{
         width: 100%;
         padding-right:0px;
-        padding-left:0px;
+        padding-left:20px;
     }
     .casino_img2 {
         /* border-top:3px solid #BD9A23; */
@@ -2083,6 +1920,48 @@ border: 2px solid #D2AE70;
     }
 }
 @media screen and (min-width: 1440px) {
+    .icon_registericon img{
+        margin-left: auto;
+        margin-right: 0px;
+        width: 250px;
+    }
+    .icon_moneytransfericon img{
+        margin-left: 0px;
+        margin-right: auto;
+        width: 250px;
+    }
+
+    #grid {
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100%;
+        column-gap: 6px;
+      }
+      
+      #grid > div {
+          
+      }
+      #grid > div img {
+       width: 100%;
+      }
+
+
+    .promotion_area{
+        float: left;
+        width: 100%;
+        padding-top:20px;
+        padding-bottom:00px;
+    }
+    .promotion_area .detailL{
+        float: left;
+        width: calc(100% - 466px);
+    }
+    .promotion_area .detailR{
+        float: left;
+        padding-left:10px;
+        width: 466px;
+    }
     .LR_area{
        /* margin-top: 20px; */
     }
@@ -2092,35 +1971,18 @@ border: 2px solid #D2AE70;
     .home_slide{
         /* height: 430px; */
     }
-    .detailLeft{
-        width: calc(100% - 310px);
-    }
-    
-    
-    .detailRight{
-        padding-top:0px;
-        width: 310px;
-        padding-left:15px;
-        border-top:0px;
-    }
-    .detailRight img{
-        width: 100%;
-    }
-
-    .step_register {
-        padding-top: 15px;
-        padding-bottom: 0px;
-        float: left;
-        width: 100%;
-    }
 }
 
 @media screen and (min-width: 1600px) {
-   .height_content{
-       height: 649px;
-   }
-   .detailR {
-        padding-bottom: 10px;
+    .icon_registericon img{
+        margin-left: auto;
+        margin-right: 0px;
+        width: 300px;
+    }
+    .icon_moneytransfericon img{
+        margin-left: 0px;
+        margin-right: auto;
+        width: 300px;
     }
     /* .sport_img:first-child img{
         padding-right: 30px;
@@ -2130,14 +1992,28 @@ border: 2px solid #D2AE70;
         padding-left:15px;
     } */
 
+    .promotion_area{
+        float: left;
+        width: 100%;
+        padding-top:20px;
+        padding-bottom:00px;
+    }
+    .promotion_area .detailL{
+        float: left;
+        width: calc(100% - 466px);
+    }
+    .promotion_area .detailR{
+        float: left;
+        padding-left:10px;
+        width: 466px;
+    }
     .step_register{
         float: left; width: 100%;
         margin-top:30px;
         margin-bottom:30px;
-        padding-top: 0px;
     }
     .detailLeft{
-        width: calc(100% - 240px);
+        width: calc(100% - 300px);
     }
 
     .detailLeft img{
@@ -2146,7 +2022,7 @@ border: 2px solid #D2AE70;
 
     .detailRight{
         padding-top:0px;
-        width: 240px;
+        width: 300px;
         padding-left:15px;
         border-top:0px;
     }

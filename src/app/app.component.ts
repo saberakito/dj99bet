@@ -51,7 +51,7 @@ export class AppComponent {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         var check_url = event.url.split("/")[2];
-        if(check_url=='register'||check_url=='deposit'||check_url=='withdraw'){
+        if(check_url=='login'||check_url=='register'||check_url=='deposit'||check_url=='withdraw'){
           this.showHeader = false;
          // this.class_checkShow = "content_100";
         }else{
