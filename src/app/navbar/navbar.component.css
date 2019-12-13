@@ -6,16 +6,19 @@
   }
   .link_nav{
     float: left;
-    border-left: 1px solid red;
+    /* border-left: 1px solid red; */
     height: 40px;
+    background-image: url(/assets/images/icon/menu.jpg);
+    background-size: 100% 100%;
   }
   .link_nav:nth-last-child(2){
     border-right: 0px solid #FF5412;
   }
 .topnav{
-  padding: 10px 10px;
-  background-image: url(/assets/images/menu/bg_menu.jpg);
-  background-size: 100% 75px;
+  /* padding: 10px 10px; */
+  border: 1px solid #B28E51; 
+  /* background-image: url(/assets/images/menu/bg_menu.jpg);
+  background-size: 100% 75px; */
   padding-left: 0px;
   padding-right: 0px;
   overflow: hidden;

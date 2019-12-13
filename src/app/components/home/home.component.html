@@ -1,35 +1,64 @@
-<div _ngcontent-kks-c2="" style="display:block;position: relative; overflow: hidden;">
-    <ngx-slick-carousel class="carousel" 
-                        #slickModal="slick-carousel" 
-                        [config]="slideConfig" >
-        <div ngxSlickItem *ngFor="let slide of imageUrls" class="slide">
-                <img src="{{ slide.img }}" alt="" width="100%">
-        </div>
-    </ngx-slick-carousel>
-    <div _ngcontent-kks-c2="" class="registericon_area">
-        <div _ngcontent-kks-c2="" class="container">
-            <div _ngcontent-kks-c2="" class="icon_registericon hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/register" tabindex="0" ng-reflect-router-link="/page/register" src="/assets/images/icon/registericon.png?v=1.1"></div>
-            <div _ngcontent-kks-c2="" class="icon_moneytransfericon hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/deposit" tabindex="0" ng-reflect-router-link="/page/deposit" src="/assets/images/icon/moneytransfericon.png?v=1.1"></div>
-        </div>
-    </div>
-</div>
-<div _ngcontent-kks-c2="" class="header_bar aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-once="true"><img _ngcontent-kks-c2="" src="/assets/images/content/volume.jpg"></div>
+
+<!-- <div _ngcontent-kks-c2="" class="header_bar aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-once="true"><img _ngcontent-kks-c2="" src="/assets/images/content/volume.jpg"></div> -->
 
 <div _ngcontent-kks-c2="" class="container">
+        
     <div _ngcontent-kks-c2="" class="promotion_area">
         <div _ngcontent-kks-c2="" class="detailL">
-            <div _ngcontent-kks-c2="" class="img_promotion_text hvr-push hover"><img _ngcontent-kks-c2="" routerLink="/promotion" src="/assets/images/content/promotion.png"></div>
-            <div _ngcontent-kks-c2="" class="img_promotion_pic hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/register" src="/assets/images/content/pro.png" tabindex="0" ng-reflect-router-link="/page/register"></div>
+                <div _ngcontent-kks-c2="" style="display:block;position: relative; overflow: hidden;">
+                    <ngx-slick-carousel class="carousel" 
+                                        #slickModal="slick-carousel" 
+                                        [config]="slideConfig" >
+                        <div ngxSlickItem *ngFor="let slide of imageUrls" class="slide">
+                                <img src="{{ slide.img }}" alt="" width="100%">
+                        </div>
+                    </ngx-slick-carousel>
+                    <!-- <div _ngcontent-kks-c2="" class="registericon_area">
+                        <div _ngcontent-kks-c2="" class="container">
+                            <div _ngcontent-kks-c2="" class="icon_registericon hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/register" tabindex="0" ng-reflect-router-link="/page/register" src="/assets/images/icon/registericon.png?v=1.1"></div>
+                            <div _ngcontent-kks-c2="" class="icon_moneytransfericon hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/deposit" tabindex="0" ng-reflect-router-link="/page/deposit" src="/assets/images/icon/moneytransfericon.png?v=1.1"></div>
+                        </div>
+                    </div> -->
+                </div>
+            <!-- <div _ngcontent-kks-c2="" class="img_promotion_pic hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/register" src="/assets/images/content/pro.png" tabindex="0" ng-reflect-router-link="/page/register"></div> -->
+            <div class="howto_area">
+                <div style="width: 33.33%;float: left;">
+                    <img _ngcontent-kks-c2="" src="/assets/images/content/1.jpg" style="width: 100%;">
+                </div>
+                <div style="width: 33.33%;float: left;">
+                    <img _ngcontent-kks-c2="" src="/assets/images/content/2.jpg" style="width: 100%;">
+                </div>
+                <div style="width: 33.33%;float: left;">
+                    <img _ngcontent-kks-c2="" src="/assets/images/content/3.jpg" style="width: 100%;">
+                </div>
+            </div>
         </div>
         <div _ngcontent-kks-c2="" class="detailR">
-            <div _ngcontent-kks-c2="" class="img_bank_ "><img _ngcontent-kks-c2="" src="/assets/images/content/banking.png" style="width: 100%;"></div>
-            <div _ngcontent-kks-c2="" class="img_service hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/howtoplay" src="/assets/images/content/service.png" style="width: 100%;" tabindex="0" ng-reflect-router-link="/page/howtoplay"></div>
-            <div _ngcontent-kks-c2="" class="img_register hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/register" src="/assets/images/content/service1.png" style="width: 100%;" tabindex="0" ng-reflect-router-link="/page/register"></div>
+            <div _ngcontent-kks-c2="" class="img_bank_ "><img _ngcontent-kks-c2="" src="/assets/images/content/logo.jpg" style="width: 100%;"></div>
+            <!-- <div _ngcontent-kks-c2="" class="img_service hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/howtoplay" src="/assets/images/content/service.png" style="width: 100%;" tabindex="0" ng-reflect-router-link="/page/howtoplay"></div>
+            <div _ngcontent-kks-c2="" class="img_register hvr-push"><img _ngcontent-kks-c2="" routerLink="/page/register" src="/assets/images/content/service1.png" style="width: 100%;" tabindex="0" ng-reflect-router-link="/page/register"></div> -->
         </div>
     </div>
-    <div _ngcontent-kks-c2="" class="row sport_button" id="grid">
-        <div _ngcontent-kks-c2="" class="hvr-push icon_game"><img _ngcontent-kks-c2="" class="tt_img_df sport_img" src="assets/images/content/sport.png"></div>
+    <div class="game_area" >
+        <div class="game_div hvr-push" >
+                <img _ngcontent-kks-c2="" src="/assets/images/content/sport.jpg" style="width: 100%;">
+        </div>
+        <div class="game_div hvr-push">
+                <img _ngcontent-kks-c2="" src="/assets/images/content/casino.jpg" style="width: 100%;">
+        </div>
+        <div class="game_div hvr-push">
+                <img _ngcontent-kks-c2="" src="/assets/images/content/game.jpg" style="width: 100%;">
+        </div>
+        <div class="game_div hvr-push">
+                <img _ngcontent-kks-c2="" src="/assets/images/content/muaythai.jpg" style="width: 100%;">
+        </div>
+        <div class="game_div hvr-push">
+                <img _ngcontent-kks-c2="" src="/assets/images/content/kai-chon.jpg" style="width: 100%;">
+        </div>
+            
+        <!-- <div _ngcontent-kks-c2="" class="hvr-push icon_game"><img _ngcontent-kks-c2="" class="tt_img_df sport_img" src="assets/images/content/sport.png"></div>
         <div _ngcontent-kks-c2="" class="hvr-push icon_game"><img _ngcontent-kks-c2="" class="tt_img_df sport_img" src="assets/images/content/casino.png"></div>
-        <div _ngcontent-kks-c2="" class="hvr-push icon_game"><img _ngcontent-kks-c2="" class="tt_img_df sport_img" src="assets/images/content/slot.png"></div>
+        <div _ngcontent-kks-c2="" class="hvr-push icon_game"><img _ngcontent-kks-c2="" class="tt_img_df sport_img" src="assets/images/content/slot.png"></div> -->
+        
     </div>
 </div>

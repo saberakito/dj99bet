@@ -4,6 +4,17 @@
     margin-right: auto;
     width: 80%;
 }
+.game_area{
+    width: 100%;float: left;
+}
+.game_div{
+    /* width: 20%;float: left; */
+    width: 100%;float: left;
+}
+.howto_area{
+    float: left;
+    width: 100%;
+}
 .registericon_area{
     float: left;
     padding-left:10px;
@@ -34,13 +45,13 @@
 .promotion_area{
     float: left;
     width: 100%;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:0px;
+    padding-bottom:0px;
 }
 .promotion_area .detailL{
     float: left;
     width: 100%;
-    padding-bottom:20px;
+    padding-bottom:0px;
 }
 
 .promotion_area .detailR{
@@ -50,14 +61,14 @@
 
 .promotion_area .detailL img{
     width: 100%;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
 .promotion_area .detailR img{
     width: 100%;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
 .info_image{
@@ -893,7 +904,7 @@ border: 2px solid #D2AE70;
     margin-bottom: 20px;
 }
 .img_bank_{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .img_service{
     margin-bottom: 20px;
@@ -969,6 +980,12 @@ border: 2px solid #D2AE70;
 }
 
 @media screen and (min-width: 425px) {
+    .game_div{
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+        float: unset;
+    }
     .sport_button {
         margin-top: 15px;
         padding-left: 30px;
@@ -1189,6 +1206,12 @@ border: 2px solid #D2AE70;
 }
 
 @media screen and (min-width: 768px) {
+    .game_div{
+        margin: auto;
+        width: 20%;
+        padding: 0px;
+        float: left;
+    }
     .img_service{
         width: unset;
     }
@@ -1230,7 +1253,7 @@ border: 2px solid #D2AE70;
         margin-bottom: 10px;
     }
     .img_bank_{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     .img_service{
         margin-bottom: 10px;
@@ -1259,7 +1282,7 @@ border: 2px solid #D2AE70;
     .promotion_area .detailL{
         float: left;
         width: 60%;
-        padding-bottom:20px;
+        padding-bottom:0px;
     }
     
     .promotion_area .detailR{
@@ -1269,14 +1292,14 @@ border: 2px solid #D2AE70;
     
     .promotion_area .detailL img{
         width: 100%;
-        padding-left:10px;
+        padding-left:0px;
         padding-right:0px;
     }
     
     .promotion_area .detailR img{
         width: 100%;
-        padding-left:10px;
-        padding-right:10px;
+        padding-left:0px;
+        padding-right:0px;
     }
 
     .sport_button img{
@@ -1743,7 +1766,7 @@ border: 2px solid #D2AE70;
     .promotion_area{
         float: left;
         width: 100%;
-        padding-top:20px;
+        padding-top:0px;
         padding-bottom:00px;
     }
     .promotion_area .detailL{
@@ -1752,7 +1775,7 @@ border: 2px solid #D2AE70;
     }
     .promotion_area .detailR{
         float: left;
-        padding-left:20px;
+        padding-left:0px;
         width: 400px;
     }
     
@@ -1761,7 +1784,7 @@ border: 2px solid #D2AE70;
         margin-bottom: 20px;
     }
     .img_bank_{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .img_service{
         margin-bottom: 20px;
@@ -1775,6 +1798,16 @@ border: 2px solid #D2AE70;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
+    }
+
+    .promotion_area .detailL{
+        float: left;
+        width: calc(100% - 384px);
+    }
+    .promotion_area .detailR{
+        float: left;
+        padding-left:0px;
+        width: 384px;
     }
    }
    
@@ -1918,6 +1951,15 @@ border: 2px solid #D2AE70;
         margin-top:30px;
         font-size: 2.5em;
     }
+    .promotion_area .detailL{
+        float: left;
+        width: calc(100% - 457px);
+    }
+    .promotion_area .detailR{
+        float: left;
+        padding-left:0px;
+        width: 457px;
+    }
 }
 @media screen and (min-width: 1440px) {
     .icon_registericon img{
@@ -1950,17 +1992,17 @@ border: 2px solid #D2AE70;
     .promotion_area{
         float: left;
         width: 100%;
-        padding-top:20px;
+        padding-top:0px;
         padding-bottom:00px;
     }
     .promotion_area .detailL{
         float: left;
-        width: calc(100% - 466px);
+        width: calc(100% - 457px);
     }
     .promotion_area .detailR{
         float: left;
-        padding-left:10px;
-        width: 466px;
+        padding-left:0px;
+        width: 457px;
     }
     .LR_area{
        /* margin-top: 20px; */
@@ -1995,17 +2037,17 @@ border: 2px solid #D2AE70;
     .promotion_area{
         float: left;
         width: 100%;
-        padding-top:20px;
+        padding-top:0px;
         padding-bottom:00px;
     }
     .promotion_area .detailL{
         float: left;
-        width: calc(100% - 466px);
+        width: calc(100% - 457px);
     }
     .promotion_area .detailR{
         float: left;
-        padding-left:10px;
-        width: 466px;
+        padding-left:0px;
+        width: 457px;
     }
     .step_register{
         float: left; width: 100%;

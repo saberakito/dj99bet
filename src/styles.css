@@ -613,7 +613,7 @@ body, html {
    }
    .topnav a:last-child{
     width: 56px;
-    height: 55px;
+    height: 40px;
    }
    
   
@@ -723,7 +723,7 @@ body, html {
 
   @media screen and (min-width: 767px) {
     .container {
-      padding-bottom: 10px;
+      padding-bottom: 0px;
     }
     .slideshow-container{
       min-height: 212px !important;

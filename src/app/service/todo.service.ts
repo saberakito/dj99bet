@@ -29,8 +29,8 @@ export class TodoService {
     return this.loggedInStatus
   }
 
-private local = window.location.origin;
-//private local = "http://localhost:80";
+//private local = window.location.origin;
+private local = "http://localhost:80";
 //private local = "http://betufa55.com"; 
 
   getTodoList(data){

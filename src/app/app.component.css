@@ -1,7 +1,13 @@
 .content_100{
     height: 100%;
 }
-
+.textLogin{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 10px;
+}
 .popup-img-line {
     max-width: 208px;
     border-bottom-left-radius: 5px;
@@ -95,36 +101,35 @@
     width: 115px;
     height: 37px;
     text-align: center;
-   
     /* border-radius: 6px; */
-    border: 1px solid #855A0C;
+    border: 1px solid yellow;
     display: inline-block;
     cursor: pointer;
-    color: #333333;
+    color: white;
     font-family: Arial;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 100;
     padding: 8px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffee66;
-    background: rgba(171,107,9,1);
-    background: -moz-linear-gradient(left, rgba(171,107,9,1) 0%, rgba(201,182,74,1) 44%, rgba(201,182,74,1) 61%, rgba(171,107,9,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(171,107,9,1)), color-stop(44%, rgba(201,182,74,1)), color-stop(61%, rgba(201,182,74,1)), color-stop(100%, rgba(171,107,9,1)));
-    background: -webkit-linear-gradient(left, rgba(171,107,9,1) 0%, rgba(201,182,74,1) 44%, rgba(201,182,74,1) 61%, rgba(171,107,9,1) 100%);
-    background: -o-linear-gradient(left, rgba(171,107,9,1) 0%, rgba(201,182,74,1) 44%, rgba(201,182,74,1) 61%, rgba(171,107,9,1) 100%);
-    background: -ms-linear-gradient(left, rgba(171,107,9,1) 0%, rgba(201,182,74,1) 44%, rgba(201,182,74,1) 61%, rgba(171,107,9,1) 100%);
-    background: linear-gradient(to right, rgba(171,107,9,1) 0%, rgba(201,182,74,1) 44%, rgba(201,182,74,1) 61%, rgba(171,107,9,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab6b09', endColorstr='#ab6b09', GradientType=1 );
+    background: rgba(2,38,72,1);
+    background: -moz-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 9%, rgba(29,89,143,1) 91%, rgba(2,38,72,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(2,38,72,1)), color-stop(9%, rgba(29,89,143,1)), color-stop(91%, rgba(29,89,143,1)), color-stop(100%, rgba(2,38,72,1)));
+    background: -webkit-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 9%, rgba(29,89,143,1) 91%, rgba(2,38,72,1) 100%);
+    background: -o-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 9%, rgba(29,89,143,1) 91%, rgba(2,38,72,1) 100%);
+    background: -ms-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 9%, rgba(29,89,143,1) 91%, rgba(2,38,72,1) 100%);
+    background: linear-gradient(to right, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 9%, rgba(29,89,143,1) 91%, rgba(2,38,72,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#022648', endColorstr='#022648', GradientType=1 );
 }
 .btn_login_from:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
-	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
-	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
-	background-color:#ffab23;
+	background: rgba(2,38,72,1);
+    background: -moz-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 37%, rgba(29,89,143,1) 58%, rgba(2,38,72,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(2,38,72,1)), color-stop(37%, rgba(29,89,143,1)), color-stop(58%, rgba(29,89,143,1)), color-stop(100%, rgba(2,38,72,1)));
+    background: -webkit-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 37%, rgba(29,89,143,1) 58%, rgba(2,38,72,1) 100%);
+    background: -o-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 37%, rgba(29,89,143,1) 58%, rgba(2,38,72,1) 100%);
+    background: -ms-linear-gradient(left, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 37%, rgba(29,89,143,1) 58%, rgba(2,38,72,1) 100%);
+    background: linear-gradient(to right, rgba(2,38,72,1) 0%, rgba(29,89,143,1) 37%, rgba(29,89,143,1) 58%, rgba(2,38,72,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#022648', endColorstr='#022648', GradientType=1 );
 }
 .btn_login_from:active {
 	position:relative;
@@ -173,7 +178,8 @@ div#centerDiv3 {
 }
 .logo_area{
     float: left;
-    
+    padding-top:20px;
+    width: 500px;
     /* padding-top: 20px;
     padding-left: 15px; */
 }
@@ -238,7 +244,7 @@ div#centerDiv3 {
 
 .area_login{
     display: none;
-    float: left;
+    float: right;
 }
 #form3{
     height: 80px;
@@ -441,7 +447,7 @@ div#centerDiv3 {
         width: 187px;
     }
     .area_login{
-        float: left;
+        float: right;
         position: relative;
         width: 530px;
         margin-top: 26px;
@@ -470,10 +476,10 @@ div#centerDiv3 {
 
 @media screen and (min-width: 1100px) {
     .area_login{
-        float: left;
+        float: right;
         position: relative;
-        width: 530px;
-        margin-top: 28px;
+        width: 540px;
+        margin-top: 60px;
         margin-left:20px;
         display: block;
     }

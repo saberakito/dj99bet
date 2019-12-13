@@ -11,10 +11,10 @@
     
 }
 .footerArea2{
-    /* background-image: url('/assets/images/footer/footer.png'); */
+     background-image: url('/assets/images/footer/footer.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background: rgba(9, 10, 12, 0.582);
+    /* background: rgba(9, 10, 12, 0.582); */
     /* border-top:3px solid #F8DD30; */
     display: none;
 }
@@ -25,7 +25,8 @@
 .footerArea2 .detail_left .logo_area_footer{
     float: left;
     width: 250px;
-    margin-top: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
 .footerArea2 .detail_left .logo_area_footer img{
@@ -96,11 +97,11 @@
 }
 .links_footer{
     font-weight: 100;
-    color: white;
+    color: #B28E51;
     float: left;
     padding-left:30px;
     padding-right: 30px;
-    border-right: 1px solid white;
+    /* border-right: 1px solid #B28E51; */
 }
 
 .links_footer:first-child{
@@ -114,7 +115,7 @@
 
 .menu_footer_{
     margin: auto;
-    width: 80%;
+    width: 84%;
     padding: 10px;
     margin-top: 0px;
     float: right;
@@ -137,7 +138,7 @@
     background-size: 280px 120px;
     background-repeat: no-repeat;
     float: left;
-    margin-top:30px;
+    margin-top:0px;
     width: 100%;
     height: 100%;
 }
@@ -416,7 +417,7 @@ li.menuFooter:hover{
     }
     .footerArea2{
         display: block;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 }
 
